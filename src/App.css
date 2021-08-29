@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed+TC:wght@300;400;700&display=swap");
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Noto Sans TC", sans-serif;
-  font-weight: 500;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
 }
