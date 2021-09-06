@@ -10,7 +10,7 @@ import {
   NavLinks,
   NavBtn,
   NavBtnLink,
-} from "./NavbarElements";
+} from "./NavbarElement";
 
 const Navbar = ({ toggle }) => {
   return (
