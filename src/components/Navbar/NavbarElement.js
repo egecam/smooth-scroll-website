@@ -3,7 +3,7 @@ import { Link as LinkR } from "react-router-dom";
 import { Link as LinkS } from "react-scroll";
 
 export const Nav = styled.nav`
-  background: #000;
+  background: ${({ scrollNav }) => (scrollNav ? "#000" : "transparent")};
   height: 80px;
   margin-top: -80px;
   display: flex;
@@ -22,7 +22,6 @@ export const Nav = styled.nav`
 export const NavbarContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  align-items: center;
   height: 80px;
   z-index: 1;
   width: 100%;
@@ -38,7 +37,7 @@ export const NavLogo = styled(LinkR)`
   display: flex;
   align-items: center;
   margin-left: 24px;
-  font-weight: 600;
+  font-weight: 700;
   text-decoration: none;
 `;
 
@@ -70,7 +69,7 @@ export const NavMenu = styled.ul`
 `;
 
 export const NavItem = styled.li`
-  height: 800px;
+  height: 80px;
 `;
 
 export const NavLinks = styled(LinkS)`
@@ -78,7 +77,7 @@ export const NavLinks = styled(LinkS)`
   display: flex;
   align-items: center;
   text-decoration: none;
-  padding: 0.1rem;
+  padding: 0 1rem;
   height: 100%;
   cursor: pointer;
 
